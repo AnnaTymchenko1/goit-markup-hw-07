@@ -7,24 +7,20 @@ h5,
 h6 {
   margin: 0;
 }
-
 ul {
   margin: 0;
   padding-left: 0;
 }
-
 img {
   display: block;
   width: 100%;
   height: auto;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #757575;
 }
-
 :root {
   --primary-text-color: #757575;
   --primary-title-color: #212121;
@@ -123,7 +119,8 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden {
   opacity: 0;
@@ -156,7 +153,8 @@ body {
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__link:hover, .header__link:focus {
+.header__link:hover,
+.header__link:focus {
   color: var(--accent-color);
 }
 .header__connect {
@@ -182,7 +180,8 @@ body {
   align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__connect-link:focus, .header__connect-link:hover {
+.header__connect-link:focus,
+.header__connect-link:hover {
   color: var(--accent-color);
 }
 
@@ -208,7 +207,11 @@ body {
   background-color: var(--primary-bg-color);
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -230,7 +233,8 @@ body {
   padding: 10px 32px;
   margin: 30px auto 0;
 }
-.hero__btn:hover, .hero__btn:focus {
+.hero__btn:hover,
+.hero__btn:focus {
   background-color: #188ce8;
 }
 
@@ -316,7 +320,8 @@ body {
 }
 .team__card {
   background-color: var(--white);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 90px) / 4);
 }
@@ -356,9 +361,11 @@ body {
 }
 .team__soc-link {
   fill: var(--icon-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team__soc-link:hover, .team__soc-link:focus {
+.team__soc-link:hover,
+.team__soc-link:focus {
   background-color: var(--accent-color);
   fill: var(--white);
 }
@@ -390,9 +397,11 @@ body {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   fill: var(--icon-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client__link:hover, .client__link:focus {
+.client__link:hover,
+.client__link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -441,7 +450,8 @@ body {
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__link:hover, .footer__link:focus {
+.footer__link:hover,
+.footer__link:focus {
   color: var(--accent-color);
 }
 .footer__connect-item:not(:last-child) {
@@ -466,7 +476,8 @@ body {
   fill: var(--white);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.join__link:hover, .join__link:focus {
+.join__link:hover,
+.join__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -535,12 +546,16 @@ body {
   border-radius: 4px;
   cursor: pointer;
   padding: 6px 22px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio__btn-filters:hover, .portfolio__btn-filters:focus {
+.portfolio__btn-filters:hover,
+.portfolio__btn-filters:focus {
   background-color: var(--accent-color);
   color: var(--white);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .projects {
@@ -552,15 +567,18 @@ body {
   width: calc(33.3333333333% - 30px);
   margin: 15px;
 }
-.projects__item:hover .projects__cover-text, .projects__item:focus .projects__cover-text {
+.projects__item:hover .projects__cover-text,
+.projects__item:focus .projects__cover-text {
   transform: translateY(0);
 }
 .projects__link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.projects__link:hover, .projects__link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.projects__link:hover,
+.projects__link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .projects__cover-wrap {
   position: relative;
@@ -612,7 +630,8 @@ body {
   width: 528px;
   min-height: 581px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
 }
@@ -641,7 +660,8 @@ body {
   fill: var(--black);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__btn-x:hover, .modal__btn-x:focus {
+.modal__btn-x:hover,
+.modal__btn-x:focus {
   fill: var(--accent-color);
 }
 .modal__field {
@@ -746,7 +766,8 @@ body {
   margin: 30px auto 0;
   padding: 10px 52px;
 }
-.modal__btn:hover, .modal__btn:focus {
+.modal__btn:hover,
+.modal__btn:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -754,4 +775,4 @@ body {
 
 textarea {
   resize: none;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
